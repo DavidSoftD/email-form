@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+}
+
+
+/* Main*/
+
+
+body {
+  background-color: #F7EDE2;
+}
+main {
+  margin-top: 30px;
+}
+
+section {
+  background-color: #2C8C99;
+}
+
+
+/* Forms */
+
+
+form label {
+  display: block;
+  color: orange;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+form textarea {
+  height: 120px;
+}
+
+
+form input,
+form textarea {
+  width:40%;
+  margin-bottom: 20px;
+  font-family: cursive;
+  font-size: 15px;
+}
+
+form button {
+  background-color: white;
+  color: orange;
+  border-radius: 7px;
+}
+
+/* ---  (Desktop) Groups & Items --- */
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
+  }
+}
